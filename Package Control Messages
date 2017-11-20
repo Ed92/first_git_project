@@ -1,0 +1,184 @@
+Package Control Messages
+========================
+
+Emmet
+-----
+
+  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). 
+  
+  ******************************
+  Please restart editor 
+  to finish installation process 
+  after PyV8 was downloaded.
+  ******************************
+  
+  Tab key handler
+  ==========================
+  
+  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.
+  
+  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.
+  
+  Enter key
+  ==========================
+  
+  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).
+  
+  To disable Enter key handler, simply add the following option in your user's Preferences file:
+  
+  "disable_formatted_linebreak": true
+  
+  Actions shortcuts
+  ==========================
+  
+  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:
+  https://github.com/sergeche/emmet-sublime
+  
+  Documentation and examples:
+  http://emmet.io
+  
+  ------------------------------
+  Follow me on Twitter: @emmetio
+  ------------------------------
+
+
+SublimeLinter
+-------------
+
+  
+    ____        _     _ _                _     _       _
+   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __
+   \___ \| | | | '_ \| | | '_ ` _ \ / _ \ |   | | '_ \| __/ _ \ '__|
+    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |
+   |____/ \__,_|_.__/|_|_|_| |_| |_|\___|_____|_|_| |_|\__\___|_|
+  
+  
+  Welcome to SublimeLinter, a linter framework for Sublime Text 3.
+  
+                   * * * IMPORTANT! * * *
+  
+          Linters *NOT* included with SublimeLinter 3,
+          they must be installed separately.
+  
+                  * * * READ THE DOCS! * * *
+  
+  Otherwise you will never know how to install linters, nor will
+  you know about all of the great new features in SublimeLinter 3.
+  
+  For complete documentation on how to install and use SublimeLinter,
+  please see:
+  
+  http://www.sublimelinter.com
+  
+  
+                   _   _      _       _
+                  | | | | ___| |_ __ | |
+                  | |_| |/ _ \ | '_ \| |
+                  |  _  |  __/ | |_) |_|
+                  |_| |_|\___|_| .__/(_)
+                               |_|
+  
+  
+  Hundreds of hours have been spent writing and documenting SublimeLinter
+  to make it the best it can be — easy to use, easy to configure,
+  easy to update, easy to extend. If you use SublimeLinter and feel
+  it is making your coding life better and easier, please consider
+  making a donation to help fund development and support.
+  
+  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love
+  
+  Thank you!
+
+
+CSS3
+----
+
+  Thank you for installing CSS3!
+  
+  This plugin requires Sublime Text 3 build 3103 or greater.
+  
+  You must disable the default CSS package. It will interfere with CSS3.
+  
+      Mac:       cmd+shift+p  -> Package Control: Disable Package -> CSS
+      Linux/Win: ctrl+shift+p -> Package Control: Disable Package -> CSS
+  
+  I also strongly recommend adding these two settings to your User Settings (the
+  general settings, not the package settings). By default, Sublime will not offer
+  completions inside other completions. In other words, the completions menu is
+  suppressed when you're tabbing through a snippet. This blocks most of the CSS3
+  completions from appearing. To fix this, set these keys to true:
+  
+      "auto_complete_commit_on_tab": true,
+      "auto_complete_with_fields": true,
+  
+  If you have Emmet installed, its completions will drown out the carefully
+  researched, standards-based completions offered by this package. You can hide
+  Emmet completions without disabling them by adding this line to your Emmet
+  package settings.
+  
+      "show_css_completions": false // strongly recommended
+  
+  That's it. Enjoy the plugin. If you have any problems, please open an issue on
+  GitHub. Thanks!
+  
+      https://github.com/y0ssar1an/CSS3/issues
+
+
+Color Highlighter
+-----------------
+
+  
+  Color Highlighter v8.0 is released!
+  
+  For more info about the plugin visit https://github.com/Monnoroch/ColorHighlighter.
+  
+  Color Highlighter was developed for many years and features were added without consideration.
+  As a result it has plenty of bugs and code is completely unmaintainable.
+  Because of it, I've decided to rewrite the plugin from scratch using all the good programming practices I learned
+  over the years.
+  
+  This is the first release of the new version and it might have some subtle bugs, especially on Windows and Mac, as I
+  don't have machines with these systems. If you find any bugs, please file them in
+  the bug tracker here: https://github.com/Monnoroch/ColorHighlighter/issues. I always appreciate your help and try to fix
+  problems as soon as possible.
+  
+  The plugin is being developed by me alone in my spare time, so if you want to encourage me to build it
+  better and faster, donations as always welcome.
+  
+  Thank you guys for your support, every little bit helps!
+
+
+GitGutter
+---------
+
+  Thanks for installing Git Gutter!!!
+  
+  👣 Follow me: @jisaacks
+  
+  
+  💛 Git Gutter? Want to support development?
+  
+  I've teamed up with Wes Bos to offer the following discounts:
+  
+  +------------------------------------------------+
+  |                                                |
+  |   Use the coupon code GITGUTTER for $10 off    |
+  |                                                |
+  +------------------------------------------------+
+  
+  🏅 ⭐ ES6 ⭐
+  
+  👉 ES6.io/friend/GITGUTTER
+  
+  🏅 ⭐ Sublime Text Book ⭐
+  
+  👉 SublimeTextBook.com/friend/GITGUTTER
+  
+  🏅 ⭐ React For Beginners ⭐
+  
+  👉 ReactForBeginners.com/friend/GITGUTTER
+  
+  
+  Join 15,000 other developers already learning with Wes Bos.
+  
+  These are fantastic resources - 100% money back guarantee! 🌟
